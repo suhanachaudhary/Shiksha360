@@ -3,7 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowLeft, Calendar, Users, FileText } from "lucide-react";
 
-export default function AssignmentDetails({ assignment, setActiveTab }) {
+export default function AssignmentDetails({ assignment, setActiveTab }: any) {
     if (!assignment) return null;
 
     return (
